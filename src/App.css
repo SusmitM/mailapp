@@ -1,0 +1,155 @@
+#root {}
+
+.App {}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 0.9px;
+  background: linear-gradient(90deg,
+      rgb(228, 160, 36) 0%,
+      #e647b6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.btn {
+  padding: 6px 18px;
+  margin-left: 35px;
+  background-color: #c53030;
+  color: white;
+  font-size: 25px;
+  border: transparent;
+  border-radius: 3.5px;
+  font-family: system-ui;
+  font-weight: 500;
+
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+  background-color: #df1515;
+  border: 2px solid lightcoral;
+
+}
+
+.Sent {
+  margin-right: 50px;
+}
+
+.inboxHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.inboxHeader h4 {
+  margin-left: 20px;
+  padding: 4px;
+}
+
+.inboxHeader h4:hover {
+  border: 2px solid lightcoral;
+
+}
+
+.mailContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.emailCard {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 15px;
+  border: 2.5px solid #e57668;
+  border-radius: 15px;
+  width: 50%;
+
+
+}
+
+.emailTitle {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: cursive;
+  margin: 12px;
+
+}
+
+.markAsRead {
+  color: white;
+  background-color: #0d8dd1;
+  padding: 2.5px;
+}
+
+.circleGreen {
+  background-color: green;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.circleRed {
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.sentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-evenly;
+  width: auto;
+  align-items: center;
+}
+
+.sentEmailCard {
+  border: 3px solid #e57668;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 12px 10px;
+  width: 300px;
+  height: 250px;
+  font-size: 20px;
+}
+
+.SingleEmailCard {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 3px solid #e57668;
+  height: 200px;
+  width: 300px;
+  font-size: 20px;
+  font-family:monospace ;
+  border-radius: 5px;
+  margin: auto;
+  padding: 12px 10px;
+}
+.SingleEmailBtnBox{
+  display: flex;
+  margin-top: 50px;
+ 
+  justify-content: center;
+}
+.BtnBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
